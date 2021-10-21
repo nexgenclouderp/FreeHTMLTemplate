@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+	<meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name="description" content="LinerPro One page Professional responsive website template based on Bootstrap Framework">
+    <meta name="keywords" content="Liner, pro, HTML, CSS, XML, JavaScript, bootstrap, framework, responsive, template">
+    <meta name="author" content="Liner Pro">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Documentation | Liner Pro - One Page Professional Bootstrap Website Template</title>
+
+	<link rel=manifest href=manifest.json>
+    <meta name=mobile-web-app-capable content=yes>
+    <meta name=application-name content="Liner Pro">
+    <link rel=icon sizes=192x192 href=images/touch/chrome-touch-icon-192x192.png>
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <meta name=apple-mobile-web-app-title content="Liner Pro">
+    <link rel=apple-touch-icon href=images/touch/apple-touch-icon.png>
+    <meta name=msapplication-TileImage content=images/touch/ms-touch-icon-144x144-precomposed.png>
+    <meta name=msapplication-TileColor content=#4e8cf5>
+    <meta name=theme-color content=#292929>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel=stylesheet href=styles/main.css>
+
+    <style type="text/css">
+        .prettyprint ol.linenums > li { 
+        	list-style-type: decimal; 
+        	border-left: 1px solid #ccc;
+        }
+
+
+        .prettyprint.linenums {
+		    border-left: 3px solid #00C275;
+		}
+
+		li.L1, li.L3, li.L5, li.L7, li.L9{
+			background-color: #fff;
+			padding: 2px 20px;
+		}
+
+		li.L0, li.L2, li.L4, li.L6, li.L8{
+			background-color: #fff;
+			padding: 2px 20px;
+		}
+
+		ol.linenums{
+			background-color: #FBFBFC;
+			overflow-y: auto;
+		}
+
+		::selection{
+			background-color: #00C275;
+			color: #fff;
+		}
+    </style>
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-79684326-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+	<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Modal -->
+                <div id="demo-modal" class="modal fade" role="dialog">
+                  <div class="modal-dialog modal-lg">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Select Demo</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Liner comes with 3 layout options.</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="https://www.linerpro.ml/demo/index.html" target="_blank">
+                                    <div class="card">
+                                        <img src="./images/thumbnails/demo-default.jpg" class="img-responsive" alt="preview-1">
+                                    </div>
+                                    <p class="card-title">Default image Layout</p>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="https://www.linerpro.ml/demo/index-slider.html" target="_blank">
+                                    <div class="card">
+                                        <img src="./images/thumbnails/demo-slider.jpg" class="img-responsive" alt="preview-1">
+                                    </div>
+                                    <p class="card-title">Slider Layout</p>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="https://www.linerpro.ml/demo/index-video.html" target="_blank">
+                                    <div class="card">
+                                        <img src="./images/thumbnails/demo-bgvid.jpg" class="img-responsive" alt="preview-1">
+                                    </div>
+                                    <p class="card-title">Background Video Layout</p>
+                                </a>
+                            </div>
+                        </div>
+                        <br><br>
+                        <p>Liner comes with 4 trendy color variants.</p>
+                        <div class="row">
+                            
+                            <div class="col-md-3">
+                                <a href="https://www.linerpro.ml/demo/index-green.html" target="_blank">
+                                    <div class="card">
+                                        <img src="./images/thumbnails/demo-green.jpg" class="img-responsive" alt="preview-1">
+                                    </div>
+                                    <p class="card-title">Vegie Green</p>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="https://www.linerpro.ml/demo/index-yellow.html" target="_blank">
+                                    <div class="card">
+                                        <img src="./images/thumbnails/demo-yellow.jpg" class="img-responsive" alt="preview-1">
+                                    </div>
+                                    <p class="card-title">Dust Yellow</p>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="https://www.linerpro.ml/demo/index-red.html" target="_blank">
+                                    <div class="card">
+                                        <img src="./images/thumbnails/demo-red.jpg" class="img-responsive" alt="preview-1">
+                                    </div>
+                                    <p class="card-title">Lust Red</p>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="https://www.linerpro.ml/demo/index-blue.html" target="_blank">
+                                    <div class="card">
+                                        <img src="./images/thumbnails/demo-blue.jpg" class="img-responsive" alt="preview-1">
+                                    </div>
+                                    <p class="card-title">Mystic Blue</p>
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <main id="start">
+        <div class=container>
+            <hgroup style="margin: 0">
+                <h1>Thank you for buying Liner Pro - Creative Onepage Responsive Bootstrap Template</h1>
+                <p>If you have any questions that are beyond the scope of this help file, please email at <a href="mailto:support@linerpro.ml" class="supportLink">support@linerpro.com</a></p>
+            </hgroup>
+            <div class=btns>
+            	<a class="btn btn-blue win" href="#">buy now</a> &nbsp;
+                <a class="btn btn-orange linux" href="#" data-toggle="modal" data-target="#demo-modal">live demo</a> &nbsp;
+                <!-- <a class="btn btn-dark docs" href="documentation.html" target="_blank">documentation</a> -->
+                <!-- <button disabled class="btn btn-dark premium" href="#" target="_blank">multipage</button>  -->
+        	</div>
+        </div>
+    </main>
+    
+    <div class="doc-contents">
+    	<div class="container">
+
+    		<!-- Table of contents -->
+	    	<div class="row">
+	    		<div class="col-md-12">
+	    			<div class="well">
+	    				<h4>Table of Contents:</h4>
+	    				<ul>
+	    					<li><a href="#overview">Overview</a></li>
+	    					<li><a href="#structure">Template Structure</a></li>
+							<li><a href="#fontsSection">Fonts</a></li>
+							<li><a href="#resources">Resources Used</a></li>
+							<li><a href="#endOfDoc">End of Documentation</a></li>
+	    				</ul>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<!-- Table of Contents ends -->
+
+	    	<!-- Overview -->
+	    	<div class="row" id="overview">
+	    		<div class="col-md-12">
+	    			<div class="well">
+	    				<h3>1. Overview:</h3>
+	    				<p><strong>Liner Pro</strong> is HTML template for professional business websites. It is retina ready, fully responsive, crystal clear line icons, developed on most popular - Bootstrap Framework which fulfills all your website needs.</p>
+
+	    				<div class="row">
+	    					<div class="col-md-12">
+	    						<div class="well">
+	    							<h4>Key Features:</h4>
+	    							<ul>
+				    					<li>3 hero section layouts: Image, Slider and Video</li>
+									    <li>4 color options provided</li>
+									    <li>Custom color option using CSS Variables, just provide your color once and whole styles will be of your color!</li>
+									    <li>Based on Bootstrap Latest Version v3.3.7</li>
+									    <li>HTML5, CSS3, jQuery</li>
+									    <li>100% Responsive</li>
+									    <li>Working Contact Form With Ajax with Simple Email Template</li>
+									    <li>Easy to Customize</li>
+									    <li>Valid HTML5</li>
+									    <li>Minimal and Clean</li>
+									    <li>HTML, CSS, JS Included</li>
+									    <li>Fonts Awesome Icons</li>
+									    <li>Linea Icons</li>
+									    <li>Free Google Fonts</li>
+									    <li>All files are well commented</li>
+									    <li>Displays well in all modern browsers and devices</li>
+				    				</ul>
+	    						</div>
+	    					</div>
+	    					<!-- <div class="col-md-6">
+	    						<div class="well">
+	    							<h4>Template Sections:</h4>
+	    							<ul>
+				    					<li><a href="#">Overview</a></li>
+				    					<li><a href="#">Template Structure</a></li>
+										<li><a href="#">Fonts</a></li>
+										<li><a href="#">Javascript Plugins and PHP Email function</a></li>
+										<li><a href="#">End of Documentation</a></li>
+				    				</ul>
+	    						</div>
+	    					</div> -->
+	    				</div>
+
+	    				<div class="row">
+	    					<div class="col-md-12">
+	    						<p>
+	    							<strong>Developed By: </strong><a href="https://faizansaiyed.ml" target="_blank">Faizan Saiyed</a><br>
+	    							<!-- <strong>Support: </strong><a href="mailto:support@linerpro.ml" target="_blank">support@linerpro.ml</a><br> -->
+	    						</p>
+	    					</div>
+	    				</div>
+	    				
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<!-- Overview ends -->
+
+
+
+	    	<!-- Template Structure -->
+	    	<div class="row" id="structure">
+	    		<div class="col-md-12">
+	    			<div class="well">
+	    				<h3>2. Template Structure:</h3>
+	    				<p><strong>Liner Pro</strong> has fixed structure made of <code>header</code>, <code>modal</code>, <code>contents</code> and <code>footer</code></p>
+
+	    				<img src="./images/full-preview.png" width="100%" alt="Full Preview of Liner Pro Template">    				
+
+	    				<br><br>
+
+<!-- Beginning Portion -->
+<h3>Beginning of Page</h3>
+<p>Below code is used at the beginning of HTML page to detect Internet Explorer browser version and set a specific class applied to Internet Explorer versions:</p>
+
+<xmp class="prettyprint linenums"><!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+</xmp>
+<!-- Beginning Portion Ends -->
+
+<!-- Head Portion -->
+<h3>Page Header</h3>
+<p>Page header consist of metadata, page title and css file links:</p>
+
+<xmp class="prettyprint linenums"><head>
+    <!-- Basic Page Needs
+    ====================================================================== -->
+    <meta charset="UTF-8">
+    <title>LinerPro | One Page Professional Bootstrap Website Template</title>
+    <meta name="description" content="LinerPro One page Professional responsive website template based on Bootstrap Framework">
+    <meta name="keywords" content="Liner, pro, HTML, CSS, XML, JavaScript, bootstrap, framework, responsive, template">
+    <meta name="author" content="Liner Pro. Faizan Saiyed">
+
+
+    <!-- Mobile Specific Meta
+    ====================================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!-- Favicon
+    ====================================================================== -->
+    <!-- icon in the highest resolution we need it for -->
+    <link rel="icon" sizes="80x80" href="icon.png">
+    <!-- reuse same icon for Safari -->
+    <link rel="apple-touch-icon" href="ios-icon.png">
+    <!-- multiple icons for IE -->
+    <meta name="msapplication-square310x310logo" content="icon_largetile.png">
+
+
+
+    <!-- Browser Theaming
+    ====================================================================== -->
+    <!-- Chrome, Firefox, Opera -->
+    <meta name="theme-color" content="#292929" />
+    <!-- Windows Phone -->  
+    <meta name="msapplication-navbutton-color" content="#292929" />  
+    <!-- iOS Safari -->  
+    <meta name="apple-mobile-web-app-capable" content="yes">  
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+    
+    <!-- CSS
+    ====================================================================== -->
+    <!-- Bootstrap Framework -->
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- CDN Link to Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Line Icons (https://linea.io/) -->
+    <link rel="stylesheet" type="text/css" href="assets/linea-fonts/basic-icons/styles-basic.css">
+    <!-- Sweet Alert Styles -->
+    <link rel="stylesheet" type="text/css" href="assets/sweetalert/sweetalert.css">
+    <!-- Main Theme Styles -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+
+
+    <!-- Color Options (If no theme selected, default Green Theme will be applied)
+    ====================================================================== -->
+    <link rel="stylesheet" type="text/css" href="assets/css/yellow-theme.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/red-theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/blue-theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/custom-theme.css"> -->
+
+</head>
+</xmp>
+<!-- Head Portion Ends -->
+
+<!-- Header Portion -->
+<h3>Header</h3>
+<p>Header consist of logo and menu bar for navigation. HTML code of this section is shown below:</p>
+
+<xmp class="prettyprint linenums"><header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#nav-modal" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">Liner<span>Pro</span></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse-2">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a class="nav-links" href="#home">Home</a></li>
+                    <li><a class="nav-links" href="#approach">Our Approach</a></li>
+                    <li><a class="nav-links" href="#why">Why Us</a></li>
+                    <li><a class="nav-links" href="#services">Services</a></li>
+                    <li><a class="nav-links" href="#features">Features</a></li>
+                    <li><a class="nav-links" href="#works">Portfolio</a></li>
+                    <li><a class="nav-links" href="#team">Team</a></li>
+                    <li><a class="nav-links" href="#testimonials">Testimonials</a></li>
+                    <li><a class="nav-links" href="#" data-toggle="modal" data-target="#contactus">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fullscreen navbar in Small Device
+    ============================================================= -->
+    <div class="modal fade" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-nav-content">
+            <div class="modal-header modal-navbar-header">
+                <button type="button" class="close modal-close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-nav-body">
+                <ul class="mobile-menu">
+                    <li><a class="nav-links" data-dismiss="modal" href="#home">Home</a></li>
+                    <li><a class="nav-links" data-dismiss="modal" href="#approach">Our Approach</a></li>
+                    <li><a class="nav-links" data-dismiss="modal" href="#why">Why Us</a></li>
+                    <li><a class="nav-links" data-dismiss="modal" href="#services">Services</a></li>
+                    <li><a class="nav-links" data-dismiss="modal" href="#features">Features</a></li>
+                    <li><a class="nav-links" data-dismiss="modal" href="#works">Portfolio</a></li>
+                    <li><a class="nav-links" data-dismiss="modal" href="#team">Team</a></li>
+                    <li><a class="nav-links" data-dismiss="modal" href="#testimonials">Testimonials</a></li>
+                    <li><a class="nav-links" data-dismiss="modal" href="#" data-toggle="modal" data-target="#contactus">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>            
+
+</header>
+</xmp>
+<!-- Header Portion Ends -->
+
+<!-- Contact Form Portion -->
+<h3>Contact Form Modal</h3>
+<p>Below code is used for Contact Form modal:</p>
+
+<xmp class="prettyprint linenums"><!-- Contact Form Modal
+======================================================================= -->
+<div id="contactus" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"><span class="bold">Contact</span> Us</h4>
+            </div>
+            <div class="modal-body">
+                <form id="contact" name="contact" action="mail.php" method="POST">
+                    <input type="text" class="form-control" placeholder="Full Name" name="name" id="name" required>
+                    <input type="email" class="form-control" placeholder="Email Address" name="email" id="email" required>
+                    <input type="text" class="form-control" placeholder="Phone Number" name="phone" id="phone">
+                    <input type="text" class="form-control" placeholder="Subject" name="subject" id="subject">
+                    <textarea class="form-control" rows="5" placeholder="Enter Message..." name="message" id="message" required></textarea>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-default submit-btn" id="submit" name="submit"><span class="paperplane-icon fa fa-paper-plane fa-fw"></span> Send</button>
+                <button type="button" class="btn btn-default cancel-btn" data-dismiss="modal"><span class="times-icon fa fa-times fa-fw"></span> Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Ends Contact Form Modal  -->
+</xmp>
+<!-- Contact Form Portion Ends -->
+
+<!-- Contact Form Portion -->
+<h3>Home Section Banner</h3>
+<p>Banner section consist of background image as banner and text above image. HTML code of this section is shown below:</p>
+
+<xmp class="prettyprint linenums"><!-- Home Hero Section
+======================================================================= -->
+<section id="home" class="section home-section background-image">
+    <div class="container">
+        <div class="row" style="margin-bottom: 8%;">
+            <div class="col-md-12" align="center">
+                <h1>Website Design &amp; Development</h1>
+                <strong>SIMPLE. YET, EFFECTIVE & IMPRESSIVE!</strong>
+                <p>We build an awesome website quickly; which you can control easily!</p>
+                <a href="index.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">DEFAULT DEMO</a>
+                <a href="index-slider.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">SLIDER DEMO</a>
+                <a href="index-video.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">VIDEO DEMO</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Ends Home Hero Section -->
+</xmp>
+<!-- Contact Form Portion Ends -->
+
+<!-- Our Approach Portion -->
+<h3>Simple Sections with Icons</h3>
+<p>Simple sections with icon in Our Approach Section (For icon reference visit - <a href="https://linea.io" target="_blank">Linea.io</a>):</p>
+
+<xmp class="prettyprint linenums"><div class="col-md-6" align="center">
+    <span class="color-icon icon-basic-webpage-multiple icon-4x"></span>
+    <h3 class="uppercase">RESPONSIVE, USER-FRIENDLY DESIGN</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+</div>
+</xmp>
+<!-- Our Approach Portion Ends -->
+
+<!-- Pregoress Bars -->
+<h3>Progress Bars</h3>
+<p>Below is the code for Progress Bar:</p>
+
+<xmp class="prettyprint linenums"><div class="tile-progress">
+    <div>
+        <p><strong>HTML, CSS, JavaScript</strong> <span class="pull-right">95.5%</span></p>
+    </div>
+    <div class="tile-progressbar">
+        <span data-fill="95.5%" style="width: 95.5%;"></span>
+    </div>
+</div>
+</xmp>
+<!-- Pregoress Bars Ends -->
+
+<!-- Row Blocks with icon -->
+<h3>Horizontal Blocks with Icon</h3>
+<p>Below is the code for Horizontal Blocks with Icon:</p>
+
+<xmp class="prettyprint linenums"><div class="col-md-6">
+    <div class="row">
+        <div class="col-md-2 dark-section-icons">
+            <span class="color-icon icon-basic-bolt icon-3x"></span>
+        </div>
+        <div class="col-md-10">
+            <h2 class="uppercase">Quick Web Development</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+    </div>
+</div>
+</xmp>
+<!-- Row Blocks with icon Ends -->
+
+<!-- Transparent Blocks -->
+<h3>Transparent Blocks</h3>
+<p>Below is the code for Transparent Blocks:</p>
+
+<xmp class="prettyprint linenums"><div class="col-md-4 " align="center">
+    <div class="black-bg">
+        <i class="fa fa-html5 fa-4x"></i>
+        <h4>HTML5 + CSS3 + JQUERY</h4>
+        <p align="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    </div>
+</div>
+</xmp>
+<!-- Transparent Blocks Ends -->
+
+<!-- Grey Blocks -->
+<h3>Grey Blocks</h3>
+<p>Below is the code for Grey Blocks:</p>
+
+<xmp class="prettyprint linenums"><div class="col-md-6" align="center">
+    <div class="grey-bg">
+        <span class="color-icon icon-basic-webpage-img-txt icon-3x"></span>
+        <h4>WEBSITE DESIGN COMPANY</h4>
+        <p align="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+</div>
+</xmp>
+<!-- Grey Blocks Ends -->
+
+<!-- Portfolio Item -->
+<h3>Single Portfolio Item</h3>
+<p>Below is the code for Single Portfolio Item:</p>
+
+<xmp class="prettyprint linenums"><div class="col-md-4 col-sm-6 col-xs-12">
+    <li id="image1">
+        <div class="mosaicItem">
+            <a href="#popin1">
+                <img src="https://via.placeholder.com/400x400/333" alt="" class="img-responsive" />
+                <div class="text">Work Title</div>
+            </a>
+        </div>
+        <div class="popin" id="popin1">
+            <a href="#image1">
+                <div class="galleryOverlay"></div>
+                <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-responsive" /></div>
+            </a>
+        </div>
+    </li>
+</div>
+</xmp>
+<!-- Portfolio Ends -->
+
+<!-- Team Member Item -->
+<h3>Single Team Member Item</h3>
+<p>Below is the code for Single Team Member Item:</p>
+
+<xmp class="prettyprint linenums"><div class="col-md-4 col-sm-6 team-wrap">
+    <div class="team-member text-center">
+        <div class="team-img">
+            <img src="https://deothemes.com/envato/enigma/html/img/team_1.jpg" alt="">
+            <div class="overlay">
+                <div class="team-details text-center">
+                    <p>
+                        Our web design team will spend time with our digital marketing team.
+                    </p>
+                    <div class="socials mt-20">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="team-title">John Marshall</h3>
+        <span>Designer</span>
+    </div>
+</div>
+</xmp>
+<!-- Team Member Ends -->
+
+<!-- Our Clients Item -->
+<h3>Our Clients Section</h3>
+<p>Below is the code for Our Clients Section:</p>
+
+<xmp class="prettyprint linenums"><!-- Our Clients Section
+======================================================================= -->
+<section id="clients" class="section" style="background-color: #EEE">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-6 col-xs-12">
+                <img class="client-logo img-responsive" src="assets/images/clients/1.png" alt="...">
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+                <img class="client-logo img-responsive" src="assets/images/clients/2.png" alt="...">
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+                <img class="client-logo img-responsive" src="assets/images/clients/3.png" alt="...">
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+                <img class="client-logo img-responsive" src="assets/images/clients/4.png" alt="...">
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+                <img class="client-logo img-responsive" src="assets/images/clients/5.png" alt="...">
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+                <img class="client-logo img-responsive" src="assets/images/clients/6.png" alt="...">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Ends Our Clients Section -->
+</xmp>
+<!-- Our Clients Ends -->
+
+<!-- Testimonials Item -->
+<h3>Single Testimonial item</h3>
+<p>Below is the code for Our Single Testimonial item:</p>
+
+<xmp class="prettyprint linenums"><!-- Quote 1 -->
+<div class="item active">
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="https://api.adorable.io/avatars/100/abott@adorable.png" class="img-circle">
+            <br>
+            <br><strong>John Doe</strong>
+            <br><small>CEO, Virtual World</small>
+            <br>
+            <br>
+            <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.&rdquo;</p>
+        </div>
+    </div>
+</div>
+</xmp>
+<!-- Testimonials Ends -->
+
+<!-- Corporate Video -->
+<h3>Corporate Video Section</h3>
+<p>Below is the code for Corporate Video Section:</p>
+
+<xmp class="prettyprint linenums"><!-- Corporate Video Section
+======================================================================= -->
+<section id="video" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" align="center">
+                <h1>Watch our <span class="bold">Corporate Video</span></h1>
+                <a href="#" data-toggle="modal" data-target="#corporateVideo">
+                    <img src="assets/images/music_play_button.svg" style="margin: 2% 0;">
+                </a>
+
+                <!-- Modal -->
+                <div id="corporateVideo" class="modal fade corporateVideo" role="dialog">
+                  <div class="modal-dialog modal-lg">
+
+                    <!-- Modal content-->
+                    <div class="modal-content modal-video-content">
+                      <div class="modal-header modal-video-header">
+                        <button type="button" class="close modal-close" data-dismiss="modal">&times;</button>
+                      </div>
+                      <div class="modal-body modal-video-body">
+                        <iframe width="100%" height="500" src="https://www.youtube.com/embed/7X8II6J-6mU" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Ends Corporate Video Section -->
+</xmp>
+<!-- Corporate Video -->
+
+<!-- Request For Quote -->
+<h3>Request for Quote Section</h3>
+<p>Below is the code for Request for Quote Section:</p>
+
+<xmp class="prettyprint linenums"><!-- Request for Quote Section
+======================================================================= -->
+<section id="contact" class="section colored-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" align="center">
+                <div class="">
+                    <h1>Have An Idea? We’re Here To Help You Manage Your Work!</h1>
+                    <a href="#" data-toggle="modal" data-target="#contactus" class="btn btn-default btn-outline btn-lg" style="margin: 3% 0">REQUEST A QUOTE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Ends Request for Quote Section -->
+</xmp>
+<!-- Request For Quote -->
+
+<!-- Footer -->
+<h3>Footer Section</h3>
+<p>Below is the code for Footer Section:</p>
+
+<xmp class="prettyprint linenums"><!-- Footer Section
+======================================================================= -->
+<section class="section dark footer">
+    <footer>
+        <div class="container">
+            <!-- Footer About -->
+            <div class="row" style="margin: 8% 0;" align="center">
+                <h1 class="color-text">Liner<span class="bold">Pro</span></h1>
+                <p style="margin-top: 3%;">
+                    • Vadodara Branch •
+                    <br> Vasna Road • Near D-Mart
+                    <br> Near Raneshwar • Vadodara • India
+                </p>
+
+                <p style="margin-top: 3%;">
+                    • Mumbai Branch •
+                    <br> Cross Road • Near Ellise Bridge
+                    <br> Behind Synergy • Mumbai • India
+                </p>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="row">
+                <div class="col-md-12" align="center">
+                    <ul class="social-icons">
+                        <li><a href="#" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright Bottom -->
+            <div class="row copyright" style="margin-top: 8%;">
+                <div class="col-md-4">
+                    <p>© Copyright 2017 | Liner Pro</p>
+                </div>
+
+                <div class="col-md-4" align="center">
+                    <p>Website Design &amp; Development Company</p>
+                </div>
+
+                <div class="col-md-4" align="right">
+                    <p><a href="#">Disclaimer</a> | <a href="#">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+<!-- Ends Footer Section -->
+</xmp>
+<!-- Footer -->
+
+<!-- Back to Top -->
+<h3>Back to Top Button</h3>
+<p>Below is the code for Back to Top Button:</p>
+
+<xmp class="prettyprint linenums"><!-- Back top top button
+======================================================================= -->
+<a href="#home" class="cd-top">Top</a>
+</xmp>
+<!-- Back to Top -->
+
+<!-- End of Page Javascripts -->
+<h3>End of Page Javascripts</h3>
+<p>End of page consist of all the javascript files used in entire html page. By placing the javascript files at end of page will help in reducing page load time:</p>
+
+<xmp class="prettyprint linenums"><!-- jQuery and Bootstrap JS
+======================================================================= -->
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Main Theme JS
+======================================================================= -->
+<script src="assets/js/main.js"></script>
+</xmp>
+<!-- End of Page Javascripts -->
+
+
+
+
+
+
+
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<!-- Template Structure ends -->
+
+
+
+
+
+            <!-- Fonts section -->
+            <div class="row" id="fontsSection">
+                <div class="col-md-12">
+                    <div class="well">
+                        <h3>2. Fonts:</h3>
+                        <p><strong>Liner Pro</strong> use Lato free fonts from Google Fonts. The font is imported in <code>main.css</code> file at the top of the page</p>
+
+<xmp class="prettyprint linenums">@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+</xmp>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Fonts section ends -->
+
+            <!-- Resources section -->
+            <div class="row" id="resources">
+                <div class="col-md-12">
+                    <div class="well">
+                        <h3>3. Resources Used:</h3>
+                        <p><strong>Liner Pro</strong> uses some free and open-source resources</p>
+                        <br>
+                        <h3>CSS Resources:</h3>
+<h4>1. Bootstrap CSS <a href="https://getbootstrap.com/" target="_blank" title="Official Documentation"><i class="fa fa-external-link"></i></a></h4>
+<xmp class="prettyprint linenums"><link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+</xmp>
+
+<h4>2. Font Awesome icons CSS <a href="https://fontawesome.io/" target="_blank" title="Official Documentation"><i class="fa fa-external-link"></i></a></h4>
+<xmp class="prettyprint linenums"><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</xmp>
+
+<h4>3. Line Icons CSS <a href="https://linea.io/" target="_blank" title="Official Documentation"><i class="fa fa-external-link"></i></a></h4>
+<xmp class="prettyprint linenums"><link rel="stylesheet" type="text/css" href="assets/linea-fonts/basic-icons/styles-basic.css">
+</xmp>
+                        <br>
+                        <h3>JS Resources:</h3>
+<h4>1. jQuery JS</h4>
+<xmp class="prettyprint linenums"><script src="assets/js/jquery-3.2.1.min.js"></script>
+</xmp> 
+
+<h4>1. Bootstrap JS</h4>
+<xmp class="prettyprint linenums"><script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</xmp>                    
+
+                        <br>
+                        <h3>Custom Theme CSS:</h3>
+                        <p><strong>Liner Pro</strong> uses CSS variables for custom colored theme. You just need to specify your color for variable inside <code>assets/css/custom-theme.css</code> file and the whole theme changes to your color.</p>
+<!-- <h4>Custom Theme CSS</h4> -->
+<xmp class="prettyprint linenums">:root{
+    /* Any HEX or RGB color code */
+    --custom-color: #daa520;
+}
+</xmp> 
+
+                        <br>
+                        <h3>Email Messages:</h3>
+                        <p><strong>Liner Pro</strong> uses a very elegant Email template. You need to specify your email address where all the Emails will be sent when filling out the contact form. Specify your email address in <code>mail.php</code> file.</p>
+<!-- <h4>Custom Theme CSS</h4> -->
+<xmp class="prettyprint linenums">$to         = 'youremail@domain.com';  // put your email here
+</xmp> 
+                  
+
+
+
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Resources section ends -->
+
+            <!-- End of Documentation -->
+            <div class="row" id="endOfDoc">
+                <div class="col-md-12">
+                    <div class="well">
+                        <h3>4. End of Documentation:</h3>
+                        <p>Once again tanks for buying <strong>Liner Pro</strong>. Hope you find this very helpful for your next website. Enjoy!</p>                        
+                    </div>
+                </div>
+            </div>
+            <!-- End of Documentation ends -->
+
+            <a href="#start" class="btn btn-default pull-right">Back to Top</a>
+
+
+	    </div>
+    </div>
+    
+
+
+    <footer class=container>
+        <!-- <nav>
+        	
+		</nav> -->
+        <div class=copyright>&copy; 2017 <a href="https://linerpro.ml/" style="color: #eee; text-decoration: none;">Liner Pro</a> by <a href="https://faizansaiyed.ml" target="_blank" style="color: #eee; text-decoration: none;">Faizan Saiyed</a></div>
+    </footer>  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.js"></script>  
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+    // Smooth Scroll
+    $(document).on('click', 'a', function(event) {
+        // event.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+    });
+</script>
+</body>
+</html>
